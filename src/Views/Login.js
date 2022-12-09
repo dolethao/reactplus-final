@@ -57,7 +57,9 @@ const Login = (props) => {
                             name="email"
                             control={control}
                             render={({ field }) => <Input {...field}
+                                status={errors.email ? "error" : ""}
                                 placeholder="Enter your email" />}
+
                         />
                         {errors.username && <p>{errors.username.message}</p>}
                     </Form.Item>
@@ -66,6 +68,7 @@ const Login = (props) => {
                             name="password"
                             control={control}
                             render={({ field }) => <Input.Password {...field}
+                                status={errors.password ? "error" : ""}
                                 placeholder="Enter your password" />}
                         />
                         {errors.password && <p>{errors.password.message}</p>}
