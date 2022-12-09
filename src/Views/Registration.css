@@ -1,0 +1,64 @@
+@media screen and (max-width: 390px) {
+    .registrations-container {
+        display: flex;
+        flex-direction: column;
+        background-color: bisque;
+    }
+
+    .registrations-banner {
+        background-image: url("../assets/images/Done.png");
+        width: 287px;
+        height: 215px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 40px auto 10px;
+    }
+
+    .registrations-content {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .registration-title {
+        font-size: 23px;
+        width: 227px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    .input-infor {
+        margin: 20px auto !important;
+        width: 320px;
+    }
+
+    input {
+        padding: 15px !important;
+        border-radius: 15px !important;
+        height: 50px !important;
+    }
+
+    .ant-input-password.css-dev-only-do-not-override-1i536d8 {
+        border-radius: 15px;
+    }
+
+    .btn-register {
+        width: 100%;
+        border-radius: 15px;
+        background-color: coral;
+        color: #fff;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .footer-registration {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    a {
+        text-decoration: none;
+        color: coral;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,116 @@
+@media screen and (max-width: 390px) {
+    .dashboard-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile-user {
+        background-color: bisque;
+        align-items: center;
+        text-align: center;
+    }
+
+    .avatar {
+        border: 1px solid red;
+        border-radius: 50%;
+        width: 110px;
+        height: 110px;
+        margin: 30px auto 10px;
+        display: flex;
+    }
+
+    .img-avatar {
+        width: 100px;
+        height: 100px;
+        background-size: contain;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+    .nick-name {
+        margin-bottom: 15px;
+    }
+
+    .name {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .id-name {
+        color: brown;
+    }
+
+    .btn-logout {
+        margin-bottom: 25px;
+        padding: 5px;
+        width: 100px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        background-color: rgb(211, 119, 86);
+    }
+
+    .time {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .clock {
+        margin-top: 20px;
+    }
+
+    .img-clock {
+        width: 200px;
+        height: 200px;
+        background-size: contain;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+
+    .task-content-title {
+        float: left;
+        width: 100%;
+        font-size: 22px;
+        font-weight: 600;
+        margin-left: 10px;
+    }
+
+    .task-content {
+        margin: 20px;
+    }
+
+    .list-task {
+        border-radius: 20px;
+        border: 1px solid;
+        box-shadow: 1px 1px 5px 5px #aaa9a9;
+        padding: 15px;
+        height: 180px;
+        overflow: scroll;
+    }
+
+    .list-task-title {
+        font-size: 19px;
+        margin-bottom: 20px;
+    }
+
+    .add {
+        float: right;
+        margin-right: 10px;
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        border: 1px solid tomato;
+        color: tomato;
+        justify-content: center;
+        display: flex;
+    }
+
+    .checkbox {
+        margin: 10px 0;
+    }
+
+    .img-dot {
+        margin-right: 10px;
+    }
+
+}
