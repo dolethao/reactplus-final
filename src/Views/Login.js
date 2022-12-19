@@ -45,7 +45,7 @@ const Login = (props) => {
             <div className='form-login'>
                 <Form
                     labelCol={{
-                        span: 8,
+                        span: 16,
                     }}
                     wrapperCol={{
                         span: 16,

@@ -4,7 +4,7 @@ import Registration from './Views/Registration';
 import Login from './Views/Login';
 import DashBoard from './Views/DashBoard';
 import { Routes, Route } from "react-router-dom"
-
+import './App.css';
 
 function App() {
   return (
