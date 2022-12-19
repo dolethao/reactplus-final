@@ -31,7 +31,7 @@ input {
 }
 
 .ant-input-password.css-dev-only-do-not-override-1i536d8 {
-    border-radius: 15px;
+    border-radius: 20px !important;
 }
 
 .btn-login {
